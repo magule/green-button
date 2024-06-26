@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test green</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Menlo&display=swap');
+
+        body {
+            font-family: 'Menlo', monospace;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        
+        h1 {
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600; 
+            color: #000;
+            background-color: #00FF00; 
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+            outline: none;
+        }
+
+        button:hover {
+            background-color: #00FF00; 
+        }
+
+
+        button:active {
+            transform: scale(0.9);
+        }
+
+        h3 {
+            margin-top: 20px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="cityDisplay"></h3>
+    <button id="cityButton" 
+        style="font-family: 'Menlo', monospace;">
+        show city
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
