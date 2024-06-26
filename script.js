@@ -2,6 +2,8 @@ const cities = [
 	"nyc",
 	"la",
 	"dc",
+	"istanbul",
+	"madrid",
 
 ];
 
